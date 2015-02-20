@@ -1,3 +1,6 @@
+source("C://Users//sandor.caetano//Google Drive//RPG//R//Mass_Battles_simulator//Dados.R")
+
+
 ### Army1
 AC1 <- 6
 HP1 <- 10
@@ -16,8 +19,13 @@ Ini2 <- 3
 
 ###### FUNÇÕES DE JOGO ######
 ATAQUE  <- function () {
-  sample(1:20,1)
+#Hit = d20() > Thaco + AC
+        
+        
+        
 }
+
+
 
 DANO <- function(dmg){
   sample(dmg,1)
